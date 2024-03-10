@@ -169,6 +169,8 @@ body {
   display: block;
   background-color: #1e3636;
   padding: 14px 16px;
+
+  margin: 15px;
 }
 
 .register-page h2 {
@@ -226,16 +228,14 @@ body {
   color: #f2f2f2;
 }
 
-
-
 /* Login */
-
-
 
 .login-page {
   display: block;
   background-color: #1e3636;
   padding: 14px 16px;
+
+  margin: 15px;
 }
 
 .login-page h2 {
@@ -245,8 +245,8 @@ body {
 
   color: #f2f2f2;
 }
- 
-.login-form{
+
+.login-form {
   display: block;
   padding: 5px;
 
@@ -292,10 +292,6 @@ body {
 .link-register {
   color: #f2f2f2;
 }
-
-
-
-
 
 /* Style the footer */
 .footer {
