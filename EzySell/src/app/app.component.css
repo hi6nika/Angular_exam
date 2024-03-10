@@ -13,6 +13,7 @@ body {
   overflow: hidden;
   background-color: #1e3636;
   justify-content: center;
+  resize: vertical;
 }
 
 /* Style the topnav links */
@@ -83,7 +84,6 @@ body {
 }
 
 /* My items */
-
 
 .my-items-page {
   display: flexbox;
@@ -197,19 +197,19 @@ body {
 .register-form {
   display: block;
   padding: 5px;
-
   color: #f2f2f2;
-
   margin: 5px;
   height: auto;
   width: auto;
 }
 
 .register-form input {
-  display: block;
-  margin: 5px;
-  height: 35px;
-  width: 850px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
 .register-form label {
@@ -271,10 +271,12 @@ body {
 }
 
 .login-form input {
-  display: block;
-  margin: 5px;
-  height: 35px;
-  width: 850px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
 .login-form label {
@@ -308,8 +310,6 @@ body {
 
 /* Add item */
 
-
-
 .add-item-page {
   display: block;
   background-color: #1e3636;
@@ -338,10 +338,12 @@ body {
 }
 
 .add-item-form input {
-  display: block;
-  margin: 5px;
-  height: 35px;
-  width: 850px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
 .add-item-form label {
@@ -369,10 +371,7 @@ body {
   background-color: #f2f2f2;
 }
 
- /* Edit item */
-
-
-
+/* Edit item */
 
 .edit-item-page {
   display: block;
@@ -402,10 +401,12 @@ body {
 }
 
 .edit-item-form input {
-  display: block;
-  margin: 5px;
-  height: 35px;
-  width: 850px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
 }
 
 .edit-item-form label {
@@ -432,8 +433,6 @@ body {
   color: #333;
   background-color: #f2f2f2;
 }
-
-
 
 /* Style the footer */
 .footer {
