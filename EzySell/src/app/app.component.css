@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  justify-content: center;
+}
+
+/* Style the topnav links */
+
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  background-color: #a63f3f;
+  padding: 10px;
+  height: auto;
+}
+
+/* ITEMS */
+
+.items-for-sale {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.listed-item-row {
+  background-color: burlywood;
+  border: 2px solid violet;
+}
+
+.listed-item {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  width: 350px;
+  height: 350px;
+  background-color: powderblue;
+  overflow: hidden;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.listed-item-img {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid black;
+}
+
+.listed-item-info {
+  margin: auto;
+  width: 250px;
+  height: 80px;
+  overflow: hidden;
+
+  border: 5px solid slateblue;
+}
+.listed-item-info p {
+  max-height: max-content;
+  overflow: hidden;
+
+  border: 5px solid slateblue;
+}
+
+.listed-item-buttons {
+  margin: auto;
+
+  padding-top: 2ch;
+  background-color: yellow;
+}
+
+.listed-item a {
+  display: inline-block;
+  color: #1c117e;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.listed-item a :hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Style the footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #610e43;
+  padding: 10px;
+}
