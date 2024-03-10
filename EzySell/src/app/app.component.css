@@ -17,12 +17,15 @@ body {
 
 /* Style the topnav links */
 
-.icon {
-  border: 2px solid wheat;
+.nav-logo {
   margin: 5px;
-  height: 50px;
-  width: 200px;
+  height: 40px;
+  width: 250px;
   float: right;
+
+  text-align: center;
+  font-size: 30px;
+  color: #f2f2f2;
 }
 
 .topnav a {
@@ -159,6 +162,141 @@ body {
   background-color: #ddd;
   color: black;
 }
+
+/* Register   */
+
+.register-page {
+  display: block;
+  background-color: #1e3636;
+  padding: 14px 16px;
+}
+
+.register-page h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+
+  color: #f2f2f2;
+}
+
+.register-form {
+  display: block;
+  padding: 5px;
+
+  color: #f2f2f2;
+
+  margin: 5px;
+  height: auto;
+  width: auto;
+}
+
+.register-form input {
+  display: block;
+  margin: 5px;
+  height: 35px;
+  width: 850px;
+}
+
+.register-form label {
+  margin: 5px;
+  height: auto;
+  width: auto;
+  color: #f2f2f2;
+}
+
+.register-form a {
+  color: #f2f2f2;
+
+  display: block;
+  background-color: #333;
+
+  float: right;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.register-form a:hover {
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+.link-login {
+  color: #f2f2f2;
+}
+
+
+
+/* Login */
+
+
+
+.login-page {
+  display: block;
+  background-color: #1e3636;
+  padding: 14px 16px;
+}
+
+.login-page h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+
+  color: #f2f2f2;
+}
+ 
+.login-form{
+  display: block;
+  padding: 5px;
+
+  color: #f2f2f2;
+
+  margin: 5px;
+  height: auto;
+  width: auto;
+}
+
+.login-form input {
+  display: block;
+  margin: 5px;
+  height: 35px;
+  width: 850px;
+}
+
+.login-form label {
+  margin: 5px;
+  height: auto;
+  width: auto;
+  color: #f2f2f2;
+}
+
+.login-form a {
+  color: #f2f2f2;
+
+  display: block;
+  background-color: #333;
+
+  float: right;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.login-form a:hover {
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+.link-register {
+  color: #f2f2f2;
+}
+
+
+
+
+
 /* Style the footer */
 .footer {
   position: relative;
