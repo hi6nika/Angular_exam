@@ -11,11 +11,19 @@ body {
 /* Style the top navigation bar */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #1e3636;
   justify-content: center;
 }
 
 /* Style the topnav links */
+
+.icon {
+  border: 2px solid wheat;
+  margin: 5px;
+  height: 50px;
+  width: 200px;
+  float: right;
+}
 
 .topnav a {
   display: inline-block;
@@ -33,7 +41,7 @@ body {
 
 /* Style the content */
 .content {
-  background-color: #a63f3f;
+  background-color: #f2f2f2;
   padding: 10px;
   height: auto;
 }
@@ -91,7 +99,7 @@ body {
 .listed-item-row {
   display: block;
   text-align: center;
-  background-color: burlywood;
+  background-color: #1e3636;
 }
 
 .listed-item {
@@ -99,13 +107,11 @@ body {
   margin-right: 15px;
   margin-top: 15px;
   margin-bottom: 15px;
-
   width: 350px;
   height: 350px;
-  background-color: powderblue;
+  background-color: #f2f2f2;
   overflow: hidden;
   display: inline-block;
-
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -114,29 +120,29 @@ body {
 .listed-item-img {
   justify-content: center;
   align-items: center;
+  overflow: hidden;
   flex-direction: column;
-  border: 2px solid black;
+  max-block-size: 180px;
 }
 
 .listed-item-info {
-  margin: auto;
-  width: 250px;
-  height: 80px;
-  padding: 0px;
+  position: relative;
+  padding: 5px;
 }
 .listed-item-info p {
+  text-align: center;
   margin: auto;
-  width: 120px;
-  height: 60px;
+  width: 280px;
+  height: 80px;
   overflow: hidden;
 }
 
 .listed-item-buttons {
-  display: block;
+  display: inline-block;
   text-align: center;
+  padding: 5px;
 
-  margin: auto;
-  padding-top: 2ch;
+  margin: 0 auto;
 }
 
 .listed-item a {
@@ -158,6 +164,7 @@ body {
   position: relative;
   bottom: 0;
   width: 100%;
-  background-color: #610e43;
+  color: #f2f2f2;
+  background-color: #1e3636;
   padding: 10px;
 }
