@@ -38,6 +38,32 @@ body {
   height: auto;
 }
 
+/* Search Bar */
+
+.search-bar {
+  overflow: hidden;
+}
+
+.search-bar a {
+  float: right;
+  display: block;
+  background-color: hsl(0, 0%, 20%);
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.search-bar input[type="text"] {
+  float: right;
+  padding: 14px 16px;
+  border: none;
+  margin-top: 1px;
+  margin-right: 6px;
+  font-size: 17px;
+}
+
 /* ITEMS */
 
 .items-for-sale {
@@ -47,8 +73,9 @@ body {
 }
 
 .listed-item-row {
+  display: block;
+  text-align: center;
   background-color: burlywood;
-  border: 2px solid violet;
 }
 
 .listed-item {
@@ -62,7 +89,7 @@ body {
   background-color: powderblue;
   overflow: hidden;
   display: inline-block;
-  color: black;
+
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -72,34 +99,34 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 5px solid black;
+  border: 2px solid black;
 }
 
 .listed-item-info {
   margin: auto;
   width: 250px;
   height: 80px;
-  overflow: hidden;
-
-  border: 5px solid slateblue;
+  padding: 0px;
 }
 .listed-item-info p {
-  max-height: max-content;
+  margin: auto;
+  width: 120px;
+  height: 60px;
   overflow: hidden;
-
-  border: 5px solid slateblue;
 }
 
 .listed-item-buttons {
-  margin: auto;
+  display: block;
+  text-align: center;
 
+  margin: auto;
   padding-top: 2ch;
-  background-color: yellow;
+  background-color: #333;
 }
 
 .listed-item a {
   display: inline-block;
-  color: #1c117e;
+  color: #117e46;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
