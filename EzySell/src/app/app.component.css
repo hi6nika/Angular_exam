@@ -82,6 +82,19 @@ body {
   font-size: 17px;
 }
 
+/* My items */
+
+
+.my-items-page {
+  display: flexbox;
+}
+
+.my-items-page h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+}
+
 /* ITEMS */
 .home-page {
   display: flexbox;
@@ -292,6 +305,135 @@ body {
 .link-register {
   color: #f2f2f2;
 }
+
+/* Add item */
+
+
+
+.add-item-page {
+  display: block;
+  background-color: #1e3636;
+  padding: 35px 16px;
+
+  margin: 15px;
+}
+
+.add-item-page h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+
+  color: #f2f2f2;
+}
+
+.add-item-form {
+  display: block;
+  padding: 5px;
+
+  color: #f2f2f2;
+
+  margin: 5px;
+  height: auto;
+  width: auto;
+}
+
+.add-item-form input {
+  display: block;
+  margin: 5px;
+  height: 35px;
+  width: 850px;
+}
+
+.add-item-form label {
+  margin: 5px;
+  height: auto;
+  width: auto;
+  color: #f2f2f2;
+}
+
+.add-item-form a {
+  color: #f2f2f2;
+
+  display: block;
+  background-color: #333;
+
+  float: right;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.add-item-form a:hover {
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+ /* Edit item */
+
+
+
+
+.edit-item-page {
+  display: block;
+  background-color: #1e3636;
+  padding: 35px 16px;
+
+  margin: 15px;
+}
+
+.edit-item-page h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+
+  color: #f2f2f2;
+}
+
+.edit-item-form {
+  display: block;
+  padding: 5px;
+
+  color: #f2f2f2;
+
+  margin: 5px;
+  height: auto;
+  width: auto;
+}
+
+.edit-item-form input {
+  display: block;
+  margin: 5px;
+  height: 35px;
+  width: 850px;
+}
+
+.edit-item-form label {
+  margin: 5px;
+  height: auto;
+  width: auto;
+  color: #f2f2f2;
+}
+
+.edit-item-form a {
+  color: #f2f2f2;
+
+  display: block;
+  background-color: #333;
+
+  float: right;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.edit-item-form a:hover {
+  color: #333;
+  background-color: #f2f2f2;
+}
+
+
 
 /* Style the footer */
 .footer {
